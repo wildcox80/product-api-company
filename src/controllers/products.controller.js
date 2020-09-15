@@ -3,7 +3,7 @@ export const createProduct = (req, res) => {
 }
 
 export const getProducts = (req, res) => {
-    
+    res.json('Get products')
 }
 
 export const getProductById = (req, res) => {
